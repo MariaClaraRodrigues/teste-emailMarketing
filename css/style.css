@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+a {
+    color: #000;
+    cursor: pointer;
+}
+
+header {
+    margin-bottom: 10px;
+}
+
+header > p {
+    text-align: right;
+    margin: 20px 25px 0 0;
+}
+
+#logo {
+    max-width: 650px;
+}
+
+.bg-amarelo {
+    background-color: #ffff00;
+}
+
+.fundo-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.conteiner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.peca {
+    flex-direction: column;
+    text-align: center;
+    line-height: 1.3;
+}
+
+.fonte-pequena {
+    font-size: 10px;
+}
+
+.cinza-claro {
+    color: #b9b5b5;
+}
+
+.destaque {
+    font-size: 25px;
+}
+
+.vermelho {
+    color: #e23b3b;
+}
+
+.btn {
+    background-color: rgb(96, 214, 96);
+    color: #fff;
+    width: 200px;
+    height: 40px;
+    border: none;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.356);
+    border-radius: 5px;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+.btn-plus {
+    width: 235px;
+    display: block;
+    margin: 20px auto;
+}
+
+.img-banner {
+    background: url(../imagens/banner.png) center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 255px;
+    margin: 10px 0;
+}
+
+div.img-mapa {
+    background: url(../imagens/mapa.png) center center no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 137px;
+}
+
+.content {
+    text-align: center;
+    font-size: 20px;
+}
+
+.conter {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.icons img{
+    width: 40px;
+    margin-left: 40px;
+}
+
+.titulo-redesSociais {
+    width: 23ch;
+    color: #8b8787;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.destaque-redes {
+    color: rgba(0, 0, 0, 0.726);
+}
+
+.centralizar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px 0;
+    line-height: 1.3;
+    background-color: #fff;
+}
+
+.linha {
+    height: 20px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+footer > p {
+    margin: 50px;
+    text-align: center;
+    font-weight: 700;
+}

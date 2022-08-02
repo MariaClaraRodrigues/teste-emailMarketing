@@ -1,0 +1,50 @@
+@media (min-width: 430px) and (max-width: 600px) {
+    .fundo-logo {
+        height: 250px;
+    }
+    .peca img {
+        width: 130px;
+    }
+    .img-banner, div.img-mapa {
+        display: none;
+    } 
+    .icons img{
+        width: 25px;
+        margin-left: 15px;
+    }
+    .btn {
+        width: 150px;
+        height: 40px;
+        margin: 20px
+    }    
+    .btn-plus {
+        margin: 20px auto;
+    }
+}
+
+@media (min-width: 280px) and (max-width: 430px) {
+    #logo img{
+        width: 450px;
+    }
+    .fundo-logo {
+        height: 200px;
+    }
+    .conteiner {
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+    }
+    .img-banner, div.img-mapa {
+        display: none;
+    }    
+    .titulo-redesSociais {
+        font-size: 23px;
+        margin-left: 5px;
+    }
+    .icons img{
+        width: 25px;
+        margin-left: 15px;
+    }
+}
+
+
